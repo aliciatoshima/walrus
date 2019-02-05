@@ -40,8 +40,11 @@ $(document).ready(function() {
   $("#p1-none").click(function() {
     $(".p1-default").removeClass();
     $("#p1-none").addClass("p1-color");
-    // $(".p1").addClass(".p1-text")
-    // $("#p1-none").slideToggle();
-    // $("#p1-color").slideToggle();
   });
+
+  // this is where we failed to move forward
+  // $("#p1-none").click(function() {
+  //   $(".p1-color").removeClass();
+  //   $("#p1-none").addClass("p1-default");
+  // });
 });
