@@ -10,6 +10,10 @@
   display: none;
 }
 
+#p1-color{
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -60,4 +64,23 @@
 
 .medium-text {
   color: #8b8eae;
+}
+
+.default-background {
+  background-color: white;
+}
+
+.default-text {
+  color: black;
+}
+
+.p1-color{
+  background-color: orange;
+  color: black;
+  border: 3px solid black;
+}
+
+.p1-default{
+  background-color: white;
+  color: black;
 }
