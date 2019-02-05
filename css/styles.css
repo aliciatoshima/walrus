@@ -6,6 +6,10 @@
   display: none;
 }
 
+#seashell-showing {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -16,10 +20,44 @@
   color: #0088cc;
 }
 
+.clickable2 {
+  cursor: pointer;
+  color: #DAF7A6  ;
+}
+
 .clickable:hover {
   text-decoration: underline;
 }
 
 .clickable1:hover {
   text-decoration: underline;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
+}
+
+.shells {
+  height: 100px;
+  width: 100px;
+}
+
+.dark-background {
+  background-color: #2f2f40;
+}
+
+.medium-background {
+  background-color: #595e6b;
+}
+
+.light-background {
+  background-color: #ba9cb0;
+}
+
+.light-text {
+  color: #9f6d9a;
+}
+
+.medium-text {
+  color: #8b8eae;
 }
